@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Build artifacts and distribution
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Data files (raw and processed)
+data/raw/*.csv
+data/raw/*.parquet
+data/processed/*.csv
+data/processed/*.parquet
+
+# Keep .gitkeep files tracked
+!.gitkeep
+
+# Agent internal scratchpad & state
+agent memory.md
+agent_memory.md
+
